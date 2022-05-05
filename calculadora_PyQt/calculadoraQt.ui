@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>322</width>
+    <height>335</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Calculadora</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../Dropbox/Mi PC (LAPTOP-CAT433DK)/Downloads/Calculator_30001.png</normaloff>../../../Dropbox/Mi PC (LAPTOP-CAT433DK)/Downloads/Calculator_30001.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 170, 255);
+background-color: rgb(85, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="boton_1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>34</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+   <property name="shortcut">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>34</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+   <property name="shortcut">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_3">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>34</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+   <property name="shortcut">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_der">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>40</y>
+     <width>56</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(255, 85, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>(</string>
+   </property>
+   <property name="shortcut">
+    <string>(</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+   <property name="shortcut">
+    <string>4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_7">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>7</string>
+   </property>
+   <property name="shortcut">
+    <string>7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_5">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+   <property name="shortcut">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_x">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(85, 170, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>x</string>
+   </property>
+   <property name="shortcut">
+    <string>*</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_division">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>230</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(85, 170, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>÷</string>
+   </property>
+   <property name="shortcut">
+    <string>/</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_suma">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>180</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(85, 170, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>+</string>
+   </property>
+   <property name="shortcut">
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_0">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>180</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="shortcut">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_8">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>130</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>8</string>
+   </property>
+   <property name="shortcut">
+    <string>8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_6">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+   <property name="shortcut">
+    <string>6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_100">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>280</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(85, 170, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>%</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_menos">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>280</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(85, 170, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>-</string>
+   </property>
+   <property name="shortcut">
+    <string>-</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_ac">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>230</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(255, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>AC</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_c">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(255, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>C</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_9">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>130</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+   <property name="shortcut">
+    <string>9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_punto">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>180</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(255, 0, 255);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>.</string>
+   </property>
+   <property name="shortcut">
+    <string>.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_izq">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>110</y>
+     <width>56</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(255, 0, 127);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>)</string>
+   </property>
+   <property name="shortcut">
+    <string>)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_salir">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>280</y>
+     <width>56</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(0, 0, 255);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SALIR</string>
+   </property>
+   <property name="shortcut">
+    <string>C</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boton_igual">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>230</y>
+     <width>56</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);
+background-color: rgb(255, 0, 0);
+font: 87 12pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="valor">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>233</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 255);
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(170, 85, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="margin">
+    <number>4</number>
+   </property>
+   <property name="indent">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>233</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 255);
+font: 87 12pt &quot;Arial Black&quot;;
+background-color: rgb(170, 85, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="margin">
+    <number>4</number>
+   </property>
+   <property name="indent">
+    <number>0</number>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>boton_1</zorder>
+  <zorder>boton_2</zorder>
+  <zorder>boton_3</zorder>
+  <zorder>boton_der</zorder>
+  <zorder>boton_4</zorder>
+  <zorder>boton_7</zorder>
+  <zorder>boton_5</zorder>
+  <zorder>boton_x</zorder>
+  <zorder>boton_division</zorder>
+  <zorder>boton_suma</zorder>
+  <zorder>boton_0</zorder>
+  <zorder>boton_8</zorder>
+  <zorder>boton_6</zorder>
+  <zorder>boton_100</zorder>
+  <zorder>boton_menos</zorder>
+  <zorder>boton_ac</zorder>
+  <zorder>boton_c</zorder>
+  <zorder>boton_9</zorder>
+  <zorder>boton_punto</zorder>
+  <zorder>boton_izq</zorder>
+  <zorder>boton_salir</zorder>
+  <zorder>boton_igual</zorder>
+  <zorder>valor</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>boton_salir</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>154</x>
+     <y>169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>257</x>
+     <y>163</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
